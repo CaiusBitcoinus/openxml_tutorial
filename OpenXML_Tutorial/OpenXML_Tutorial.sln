@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OXML.UI", "OXML.UI\OXML.UI.csproj", "{1014AC4A-9341-419B-9318-F7FF974E7891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OXML.Library", "OXML.Library\OXML.Library.csproj", "{349108B5-AF1D-4ACB-98AB-FEFDAA38D73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OXML.DL", "OXML.DL\OXML.DL.csproj", "{52742182-4522-40D4-857A-F2BB78FDF392}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1014AC4A-9341-419B-9318-F7FF974E7891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1014AC4A-9341-419B-9318-F7FF974E7891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1014AC4A-9341-419B-9318-F7FF974E7891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1014AC4A-9341-419B-9318-F7FF974E7891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349108B5-AF1D-4ACB-98AB-FEFDAA38D73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349108B5-AF1D-4ACB-98AB-FEFDAA38D73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349108B5-AF1D-4ACB-98AB-FEFDAA38D73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349108B5-AF1D-4ACB-98AB-FEFDAA38D73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52742182-4522-40D4-857A-F2BB78FDF392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52742182-4522-40D4-857A-F2BB78FDF392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52742182-4522-40D4-857A-F2BB78FDF392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52742182-4522-40D4-857A-F2BB78FDF392}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02702E5-E2E5-4311-B282-D97A3A4A83A3}
+	EndGlobalSection
+EndGlobal
