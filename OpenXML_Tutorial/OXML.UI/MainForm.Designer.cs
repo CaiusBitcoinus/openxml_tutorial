@@ -38,6 +38,7 @@
             this.Btn_RetrievePlainText = new System.Windows.Forms.Button();
             this.tabControl_mainTabControl = new System.Windows.Forms.TabControl();
             this.tPage_Exel = new System.Windows.Forms.TabPage();
+            this.Btn_CreateExcelFileTableFormattedCells = new System.Windows.Forms.Button();
             this.btn_AddExcelSheets = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tbo_CurrentExcelFile = new System.Windows.Forms.TextBox();
@@ -45,7 +46,7 @@
             this.tPage_Word = new System.Windows.Forms.TabPage();
             this.tPage_PPT = new System.Windows.Forms.TabPage();
             this.tPage_disclaimer = new System.Windows.Forms.TabPage();
-            this.Btn_CreateExcelFileTableFormattedCells = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl_mainTabControl.SuspendLayout();
             this.tPage_Exel.SuspendLayout();
             this.tPage_Word.SuspendLayout();
@@ -157,6 +158,7 @@
             // 
             // tPage_Exel
             // 
+            this.tPage_Exel.Controls.Add(this.button1);
             this.tPage_Exel.Controls.Add(this.Btn_CreateExcelFileTableFormattedCells);
             this.tPage_Exel.Controls.Add(this.btn_AddExcelSheets);
             this.tPage_Exel.Controls.Add(this.label1);
@@ -166,13 +168,26 @@
             this.tPage_Exel.Controls.Add(this.Btn_GetExcelSheetsNames);
             this.tPage_Exel.Controls.Add(this.Btn_WriteInExcelCell);
             this.tPage_Exel.Controls.Add(this.Btn_GetExcelCellValue);
-            this.tPage_Exel.Location = new System.Drawing.Point(4, 32);
+            this.tPage_Exel.Location = new System.Drawing.Point(4, 28);
             this.tPage_Exel.Name = "tPage_Exel";
             this.tPage_Exel.Padding = new System.Windows.Forms.Padding(3);
-            this.tPage_Exel.Size = new System.Drawing.Size(1434, 652);
+            this.tPage_Exel.Size = new System.Drawing.Size(1434, 656);
             this.tPage_Exel.TabIndex = 0;
             this.tPage_Exel.Text = "Excel Tutorials";
             this.tPage_Exel.UseVisualStyleBackColor = true;
+            // 
+            // Btn_CreateExcelFileTableFormattedCells
+            // 
+            this.Btn_CreateExcelFileTableFormattedCells.Enabled = false;
+            this.Btn_CreateExcelFileTableFormattedCells.Location = new System.Drawing.Point(6, 220);
+            this.Btn_CreateExcelFileTableFormattedCells.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_CreateExcelFileTableFormattedCells.Name = "Btn_CreateExcelFileTableFormattedCells";
+            this.Btn_CreateExcelFileTableFormattedCells.Size = new System.Drawing.Size(450, 35);
+            this.Btn_CreateExcelFileTableFormattedCells.TabIndex = 11;
+            this.Btn_CreateExcelFileTableFormattedCells.Text = "6) Create Excel File with table and formatted cells";
+            this.Btn_CreateExcelFileTableFormattedCells.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_CreateExcelFileTableFormattedCells.UseVisualStyleBackColor = true;
+            this.Btn_CreateExcelFileTableFormattedCells.Click += new System.EventHandler(this.Btn_CreateExcelFileTableFormattedCells_Click);
             // 
             // btn_AddExcelSheets
             // 
@@ -191,7 +206,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(832, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 23);
+            this.label1.Size = new System.Drawing.Size(119, 19);
             this.label1.TabIndex = 9;
             this.label1.Text = "Current Excel file:";
             // 
@@ -199,7 +214,7 @@
             // 
             this.tbo_CurrentExcelFile.Location = new System.Drawing.Point(982, 6);
             this.tbo_CurrentExcelFile.Name = "tbo_CurrentExcelFile";
-            this.tbo_CurrentExcelFile.Size = new System.Drawing.Size(449, 30);
+            this.tbo_CurrentExcelFile.Size = new System.Drawing.Size(449, 26);
             this.tbo_CurrentExcelFile.TabIndex = 8;
             this.tbo_CurrentExcelFile.Text = "E:\\ExcelExemple_01.xlsx";
             // 
@@ -219,10 +234,10 @@
             this.tPage_Word.Controls.Add(this.Btn_GetWordCreationDateTime);
             this.tPage_Word.Controls.Add(this.Btn_RetrievePlainText);
             this.tPage_Word.Controls.Add(this.Btn_InsertTableInWorldDocument);
-            this.tPage_Word.Location = new System.Drawing.Point(4, 32);
+            this.tPage_Word.Location = new System.Drawing.Point(4, 28);
             this.tPage_Word.Name = "tPage_Word";
             this.tPage_Word.Padding = new System.Windows.Forms.Padding(3);
-            this.tPage_Word.Size = new System.Drawing.Size(1434, 652);
+            this.tPage_Word.Size = new System.Drawing.Size(1434, 656);
             this.tPage_Word.TabIndex = 1;
             this.tPage_Word.Text = "Word Tutorials";
             this.tPage_Word.UseVisualStyleBackColor = true;
@@ -230,40 +245,39 @@
             // tPage_PPT
             // 
             this.tPage_PPT.Controls.Add(this.Btn_GetSlidesNumber);
-            this.tPage_PPT.Location = new System.Drawing.Point(4, 32);
+            this.tPage_PPT.Location = new System.Drawing.Point(4, 28);
             this.tPage_PPT.Name = "tPage_PPT";
             this.tPage_PPT.Padding = new System.Windows.Forms.Padding(3);
-            this.tPage_PPT.Size = new System.Drawing.Size(1434, 652);
+            this.tPage_PPT.Size = new System.Drawing.Size(1434, 656);
             this.tPage_PPT.TabIndex = 2;
             this.tPage_PPT.Text = "PPT Tutorials";
             this.tPage_PPT.UseVisualStyleBackColor = true;
             // 
             // tPage_disclaimer
             // 
-            this.tPage_disclaimer.Location = new System.Drawing.Point(4, 32);
+            this.tPage_disclaimer.Location = new System.Drawing.Point(4, 28);
             this.tPage_disclaimer.Name = "tPage_disclaimer";
             this.tPage_disclaimer.Padding = new System.Windows.Forms.Padding(3);
-            this.tPage_disclaimer.Size = new System.Drawing.Size(1434, 652);
+            this.tPage_disclaimer.Size = new System.Drawing.Size(1434, 656);
             this.tPage_disclaimer.TabIndex = 3;
             this.tPage_disclaimer.Text = "[Advertising space reserverd by CocaCola]";
             this.tPage_disclaimer.UseVisualStyleBackColor = true;
             // 
-            // Btn_CreateExcelFileTableFormattedCells
+            // button1
             // 
-            this.Btn_CreateExcelFileTableFormattedCells.Enabled = false;
-            this.Btn_CreateExcelFileTableFormattedCells.Location = new System.Drawing.Point(6, 220);
-            this.Btn_CreateExcelFileTableFormattedCells.Margin = new System.Windows.Forms.Padding(4);
-            this.Btn_CreateExcelFileTableFormattedCells.Name = "Btn_CreateExcelFileTableFormattedCells";
-            this.Btn_CreateExcelFileTableFormattedCells.Size = new System.Drawing.Size(450, 35);
-            this.Btn_CreateExcelFileTableFormattedCells.TabIndex = 11;
-            this.Btn_CreateExcelFileTableFormattedCells.Text = "6) Create Excel File with table and formatted cells";
-            this.Btn_CreateExcelFileTableFormattedCells.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_CreateExcelFileTableFormattedCells.UseVisualStyleBackColor = true;
-            this.Btn_CreateExcelFileTableFormattedCells.Click += new System.EventHandler(this.Btn_CreateExcelFileTableFormattedCells_Click);
+            this.button1.Enabled = false;
+            this.button1.Location = new System.Drawing.Point(6, 263);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(450, 35);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "7) Test GitHub";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1442, 688);
             this.Controls.Add(this.tabControl_mainTabControl);
@@ -300,6 +314,7 @@
         private System.Windows.Forms.TabPage tPage_disclaimer;
         private System.Windows.Forms.Button btn_AddExcelSheets;
         private System.Windows.Forms.Button Btn_CreateExcelFileTableFormattedCells;
+        private System.Windows.Forms.Button button1;
     }
 }
 
