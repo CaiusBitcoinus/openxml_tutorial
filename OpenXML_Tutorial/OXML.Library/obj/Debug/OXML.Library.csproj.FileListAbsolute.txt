@@ -1,0 +1,14 @@
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\OXML.Library.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\OXML.Library.pdb
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\DocumentFormat.OpenXml.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\System.IO.Packaging.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\DocumentFormat.OpenXml.xml
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\System.IO.Packaging.xml
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\obj\Debug\OXML.Library.csprojAssemblyReference.cache
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\obj\Debug\OXML.Library.csproj.CoreCompileInputs.cache
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\obj\Debug\OXML.Library.csproj.CopyComplete
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\obj\Debug\OXML.Library.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\obj\Debug\OXML.Library.pdb
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\OXML.DL.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.Library\bin\Debug\OXML.DL.pdb

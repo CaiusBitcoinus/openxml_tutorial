@@ -1,0 +1,6 @@
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.DL\bin\Debug\OXML.DL.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.DL\bin\Debug\OXML.DL.pdb
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.DL\obj\Debug\OXML.DL.csprojAssemblyReference.cache
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.DL\obj\Debug\OXML.DL.csproj.CoreCompileInputs.cache
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.DL\obj\Debug\OXML.DL.dll
+E:\003_P\openxml_tutorial\OpenXML_Tutorial\OXML.DL\obj\Debug\OXML.DL.pdb
